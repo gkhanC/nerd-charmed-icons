@@ -1,16 +1,16 @@
 {
-	"name": "charmed-icons",
-	"displayName": "Charmed Icons",
+	"name": "nerd-charmed-icons",
+	"displayName": "Nerd Charmed Icons",
 	"description": "💝 Charming icon set for Roblox codebases",
 	"version": "0.5.1",
-	"publisher": "littensy",
+	"publisher": "Gökhan Tutku Çay",
 	"icon": "assets/icon.png",
 	"license": "MIT",
 	"type": "module",
 	"packageManager": "pnpm@9.4.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/littensy/charmed-icons"
+		"url": "https://github.com/gkhanC/nerd-charmed-icons.git"
 	},
 	"engines": {
 		"vscode": "^1.88.0"
@@ -21,7 +21,7 @@
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "charmed-icons",
+				"id": "nerd-charmed-icons",
 				"label": "Charmed",
 				"path": "./themes/charmed-icon-theme.json"
 			}
