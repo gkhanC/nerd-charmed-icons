@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-	<img src="assets/icon.png" alt="Logo" width="128" />
+	
   </p>
   <h1 align="center"><b>Nerd Charmed Icons</b></h1>
 </p>
@@ -9,10 +9,6 @@
 
 [![GitHub License](https://img.shields.io/github/license/gkhanC/nerd-charmed-icons?style=for-the-badge)](LICENSE.md)
 ![GitHub Stars](https://img.shields.io/github/stars/gkhanC/nerd-charmed-icons?style=for-the-badge&logo=github)
-
-<img src="assets/files.png" alt="Files" width="512" />
-<br><br>
-<img src="assets/folders.png" alt="Folders" width="512" />
 
 </div>
 
@@ -32,7 +28,10 @@ You can find my icons on the [VS Code Marketplace](https://marketplace.visualstu
 
 If you have any icon requests, please [open an issue](https://github.com/gkhanC/nerd-charmed-icons/issues/new).
 
-You can also reach me on Discord `@gkhanC` for a quicker response!
+## 🙏 Special Thanks
+
+A special thank you to [@littensy](https://github.com/littensy/charmed-icons) for creating the original version of this icon theme.
+
 
 ## ❤️ Gratitude
 
