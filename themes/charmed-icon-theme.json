@@ -39,7 +39,7 @@
 			"iconPath": "files/leaf.svg"
 		},
 		"file": {
-			"iconPath": "files/scroll.svg"
+			"iconPath": "files/spell-book.svg"
 		},
 		"git": {
 			"iconPath": "files/spaceship.svg"
@@ -75,7 +75,7 @@
 			"iconPath": "files/javascript.svg"
 		},
 		"json": {
-			"iconPath": "files/spell-book.svg"
+			"iconPath": "files/bread.svg"
 		},
 		"kotlin": {
 			"iconPath": "files/kotlin.svg"
@@ -557,9 +557,14 @@
 		"iso": {
 			"iconPath": "files/iso.svg"
 		},
-		"isoini": {
-			"iconPath": "files/ini.svg"
-		},
+		
+		"isoini": {"iconPath": "files/ini.svg"},
+		"playerController": {"iconPath": "files/amongW.svg"},
+		"manager": {"iconPath": "files/amongR.svg"},
+		"animationController": {"iconPath": "files/amongB.svg"},
+		"controllers": {"iconPath": "files/amongP.svg"},
+		"shoot": {"iconPath": "files/amongG.svg"},
+
 		"enviroment": {
 			"iconPath": "files/enviroment.svg"
 		},
@@ -794,9 +799,86 @@
 		"refs": "ref",
 		"reference": "ref",
 		"references": "ref",
+		"inputcontroller": "controllers",
+		"inputcontroller.cs": "controllers",
+		"InputController.cs": "controllers",
+
+		"shoot.cs": "shoot",
+		"shooting.cs": "shoot",
+		"ShootingController.cs": "shoot",		
+
+		"target.cs": "shoot",
+		"targeting.cs": "shoot",
+		"TargetingController.cs": "shoot",		
+
+		"camerashake.cs": "shoot",
+		"CameraShake.cs": "shoot",
+		"CameraShakeController.cs": "shoot",	
+
+		"movement.cs": "controllers",
+		"MovementController.cs": "controllers",
+		"PlayerMovementController.cs": "controllers",
+		"EnemyMovementController.cs": "controllers",
+		"PlayerMovement.cs": "controllers",
+		"EnemyMovement.cs": "controllers",
+
+		"rotation.cs": "controllers",
+		"RotationController.cs": "controllers",
+		"PlayerRotationController.cs": "controllers",
+		"EnemyRotationController.cs": "controllers",
+		"PlayerRotation.cs": "controllers",
+		"EnemyRotation.cs": "controllers",
+
+		"jump.cs": "controllers",
+		"JumpController.cs": "controllers",
+		"PlayerJumpController.cs": "controllers",
+		"EnemyJumpController.cs": "controllers",
+		"PlayerJump.cs": "controllers",
+		"EnemyJump.cs": "controllers",
+
+		"axis.cs": "controllers",
+		"AxisController.cs": "controllers",
+		"PlayerAxisController.cs": "controllers",
+		"EnemyAxisController.cs": "controllers",
+		"PlayerAxis.cs": "controllers",
+		"EnemyAxis.cs": "controllers",
+
+
+		"camera.cs": "controllers",
+		"CameraController.cs": "controllers",
+		"CameraAnimation.cs": "controllers",
+		"CameraAnimationController.cs": "controllers",
+		"PlayerCameraController.cs": "controllers",
+		"EnemyCameraController.cs": "controllers",
+		"PlayerCamera.cs": "controllers",
+		"EnemyCamera.cs": "controllers",
+
+		"animationcontroller": "animationController",
+		"AnimationController": "animationController",
+		"AnimationController.cs": "animationController",
+		"PlayerAnimationController.cs": "animationController",
+		"PlayerAnimation.cs": "animationController",
+		"PlayerAnimations.cs": "animationController",
+		"EnemyAnimations.cs": "animationController",
+		"EnemyAnimationController.cs": "animationController",
+		"manager": "manager",
+		"manager.cs": "manager",
+		"gamemanager.cs": "manager",
+		"GameManager.cs": "manager",
+		"inputmanager.cs": "manager",
+		"InputManager.cs": "manager",
+		"Enemy.cs": "manager",
+		"EnemyController.cs": "manager",
+		"EnemyManager.cs": "manager",
+		"player": "playerController",
+		"player.cs": "playerController",
+		"players.cs": "playerController",
+		"playercontroller.cs": "playerController",
+		"playercontroller": "playerController",
+		"PlayerController.cs": "playerController",
 		"jsconfig.json": "javascript-config",
 		"tsconfig.json": "typescript-config",
-		"package.json": "node",
+		"package.json": "rust",
 		"package-lock.json": "node",
 		"pnpm-lock.yaml": "node",
 		"yarn.lock": "node",
