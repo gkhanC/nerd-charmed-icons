@@ -1,33 +1,36 @@
-name: CI
+name: CI/CD Pipeline
 
 on:
   push:
-    branches: [main]
-    tags-ignore: ["v?[0-9]+.[0-9]+.[0-9]+"]
+    branches:
+      - master
   pull_request:
-    branches: [main]
+    branches:
+      - master
 
 jobs:
-  ci:
-    name: CI
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
-      - name: Lint files
-        run: pnpm lint
+      - name: Run tests
+        run: npm test
 
       - name: Package extension
-        uses: haaleo/publish-vscode-extension@v1
-        with:
-          pat: _
-          dependencies: false
-          dryRun: true
+        run: vsce package
+
+      - name: Publish extension
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: vsce publish
