@@ -557,16 +557,51 @@
 		"iso": {
 			"iconPath": "files/iso.svg"
 		},
-		
-		"isoini": {"iconPath": "files/ini.svg"},
-		"playerController": {"iconPath": "files/amongW.svg"},
-		"manager": {"iconPath": "files/amongR.svg"},
-		"animationController": {"iconPath": "files/amongB.svg"},
-		"scroll": {"iconPath": "files/scroll.svg"},
-		"ghost": {"iconPath": "files/ghost.svg"},
-		"controllers": {"iconPath": "files/amongP.svg"},
-		"shoot": {"iconPath": "files/amongG.svg"},
-
+		"isoini": {
+			"iconPath": "files/ini.svg"
+		},
+		"playerController": {
+			"iconPath": "files/amongW.svg"
+		},
+		"manager": {
+			"iconPath": "files/amongR.svg"
+		},
+		"animationController": {
+			"iconPath": "files/amongB.svg"
+		},
+		"scroll": {
+			"iconPath": "files/scroll.svg"
+		},
+		"ghost": {
+			"iconPath": "files/ghost.svg"
+		},
+		"controllers": {
+			"iconPath": "files/amongP.svg"
+		},
+		"shoot": {
+			"iconPath": "files/amongG.svg"
+		},
+		"amongB": {
+			"iconPath": "files/amongB.svg"
+		},
+		"amongG": {
+			"iconPath": "files/amongG.svg"
+		},
+		"amongR": {
+			"iconPath": "files/amongR.svg"
+		},
+		"amongP": {
+			"iconPath": "files/amongP.svg"
+		},
+		"amongW": {
+			"iconPath": "files/amongW.svg"
+		},
+		"among-us-2": {
+			"iconPath": "files/among-us-2.svg"
+		},
+		"among-us-3": {
+			"iconPath": "files/among-us-3.svg"
+		},
 		"enviroment": {
 			"iconPath": "files/enviroment.svg"
 		},
@@ -807,60 +842,73 @@
 		"refs": "ref",
 		"reference": "ref",
 		"references": "ref",
-		"inputcontroller": "controllers",
-		"inputcontroller.cs": "controllers",
-		"InputController.cs": "controllers",
+		
+		"homeController.cs": "amongB",
+		"HomeController.cs": "amongB",
+		"productController.cs": "amongG",
+		"ProductController.cs": "amongG",
+		"repository.cs": "amongP",
+		"repositoryContext.cs": "amongP",
+		"entity.cs": "amongW",
+		"entityController.cs": "amongW",
+		"EntityController.cs": "amongW",
+		"EntityRepository.cs": "amongW",
+		"EntityDal.cs": "amongW",
+		"category.cs": "amongR",
+		"categoryController.cs": "amongR",
+		"CategoryController.cs": "amongR",
+		"CategoryDal.cs": "amongR",
 
-		"shoot.cs": "shoot",
-		"shooting.cs": "shoot",
-		"ShootingController.cs": "shoot",		
 
-		"target.cs": "shoot",
-		"targeting.cs": "shoot",
-		"TargetingController.cs": "shoot",		
-
+		"bulletcontroller.cs": "amongR",
+		"BulletController.cs": "amongR",
+		"gun.cs": "amongR",
+		"guncontroller.cs": "amongR",
+		"GunController.cs": "amongR",
+		"inputcontroller": "amongG",
+		"inputcontroller.cs": "amongG",
+		"InputController.cs": "amongG",
+		"shoot.cs": "amongP",
+		"shooting.cs": "amongP",
+		"ShootingController.cs": "amongP",
+		"target.cs": "among-us-2",
+		"targeting.cs": "among-us-2",
+		"TargetingController.cs": "among-us-2",
 		"camerashake.cs": "shoot",
 		"CameraShake.cs": "shoot",
-		"CameraShakeController.cs": "shoot",	
-
+		"CameraShakeController.cs": "shoot",
 		"movement.cs": "controllers",
 		"MovementController.cs": "controllers",
-		"PlayerMovementController.cs": "controllers",
-		"EnemyMovementController.cs": "controllers",
-		"PlayerMovement.cs": "controllers",
-		"EnemyMovement.cs": "controllers",
-
-		"rotation.cs": "controllers",
-		"RotationController.cs": "controllers",
-		"PlayerRotationController.cs": "controllers",
-		"EnemyRotationController.cs": "controllers",
-		"PlayerRotation.cs": "controllers",
-		"EnemyRotation.cs": "controllers",
-
-		"jump.cs": "controllers",
-		"JumpController.cs": "controllers",
-		"PlayerJumpController.cs": "controllers",
-		"EnemyJumpController.cs": "controllers",
-		"PlayerJump.cs": "controllers",
-		"EnemyJump.cs": "controllers",
-
-		"axis.cs": "controllers",
-		"AxisController.cs": "controllers",
-		"PlayerAxisController.cs": "controllers",
-		"EnemyAxisController.cs": "controllers",
-		"PlayerAxis.cs": "controllers",
-		"EnemyAxis.cs": "controllers",
-
-
+		"PlayerMovementController.cs": "amongW",
+		"EnemyMovementController.cs": "amongR",
+		"PlayerMovement.cs": "amongW",
+		"EnemyMovement.cs": "amongR",
+		"rotation.cs": "amongB",
+		"RotationController.cs": "amongB",
+		"PlayerRotationController.cs": "amongW",
+		"EnemyRotationController.cs": "amongR",
+		"PlayerRotation.cs": "amongW",
+		"EnemyRotation.cs": "amongR",
+		"jump.cs": "among-us-3",
+		"JumpController.cs": "among-us-3",
+		"PlayerJumpController.cs": "amongW",
+		"EnemyJumpController.cs": "amongR",
+		"PlayerJump.cs": "amongW",
+		"EnemyJump.cs": "amongR",
+		"axis.cs": "amongG",
+		"AxisController.cs": "amongG",
+		"PlayerAxisController.cs": "amongW",
+		"EnemyAxisController.cs": "amongR",
+		"PlayerAxis.cs": "amongW",
+		"EnemyAxis.cs": "amongR",
 		"camera.cs": "controllers",
 		"CameraController.cs": "controllers",
 		"CameraAnimation.cs": "controllers",
 		"CameraAnimationController.cs": "controllers",
-		"PlayerCameraController.cs": "controllers",
-		"EnemyCameraController.cs": "controllers",
-		"PlayerCamera.cs": "controllers",
-		"EnemyCamera.cs": "controllers",
-
+		"PlayerCameraController.cs": "amongW",
+		"EnemyCameraController.cs": "amongR",
+		"PlayerCamera.cs": "amongW",
+		"EnemyCamera.cs": "amongR",
 		"animationcontroller": "animationController",
 		"AnimationController": "animationController",
 		"AnimationController.cs": "animationController",
@@ -871,13 +919,13 @@
 		"EnemyAnimationController.cs": "animationController",
 		"manager": "manager",
 		"manager.cs": "manager",
-		"gamemanager.cs": "manager",
-		"GameManager.cs": "manager",
-		"inputmanager.cs": "manager",
-		"InputManager.cs": "manager",
-		"Enemy.cs": "manager",
-		"EnemyController.cs": "manager",
-		"EnemyManager.cs": "manager",
+		"gamemanager.cs": "amongW",
+		"GameManager.cs": "amongW",
+		"inputmanager.cs": "amongG",
+		"InputManager.cs": "amongG",
+		"Enemy.cs": "amongR",
+		"EnemyController.cs": "amongR",
+		"EnemyManager.cs": "amongR",
 		"player": "playerController",
 		"player.cs": "playerController",
 		"players.cs": "playerController",
